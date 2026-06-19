@@ -1,0 +1,165 @@
+/* --- Global Reset & Typography --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* --- Layout & Card Styling --- */
+.login-wrapper {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.login-card {
+    background-color: #ffffff;
+    max-width: 400px;
+    width: 100%;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* --- Header & Branding --- */
+.login-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.login-header h1 {
+    font-size: 24px;
+    color: #cf142b; /* Crimson Red matching the Blood India theme */
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.login-header p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* --- Form Inputs --- */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input-group label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #444;
+}
+
+.input-group input {
+    padding: 12px 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+    border-color: #cf142b;
+    box-shadow: 0 0 0 3px rgba(207, 20, 43, 0.1);
+}
+
+/* --- Form Actions (Remember Me & Forgot Password) --- */
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.forgot-password {
+    color: #cf142b;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* --- Submit Button --- */
+.login-btn {
+    background-color: #cf142b;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    margin-top: 10px;
+}
+
+.login-btn:hover {
+    background-color: #a81023;
+}
+
+.login-btn:active {
+    transform: scale(0.98);
+}
+
+/* --- Footer Section --- */
+.login-footer {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 14px;
+    color: #666;
+}
+
+.login-footer a {
+    color: #cf142b;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-footer a:hover {
+    text-decoration: underline;
+}
+
+.logo-container {
+    position: fixed;
+    top: 20px;   /* Distance from the top edge */
+    right: 20px; /* Distance from the right edge */
+    z-index: 1000; /* Ensures it stays on top of other elements */
+}
+
+.top-right-logo {
+    height: 60px; /* Adjust the height to fit your design */
+    width: auto;  /* Maintains the aspect ratio */
+}
