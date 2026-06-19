@@ -11,21 +11,22 @@
     <div class="login-wrapper">
         <div class="login-card">
             <div class="login-header">
-                <div class="logo-icon">
-                <h1>Blood India</h1>
-                <p>Welcome to Blood India!.</p>
+            <div class="header-content">
+            <img src="file:///Users/prajwalurs/Downloads/Gemini_Generated_Image_j96ecsj96ecsj96e.png" alt="Logo" class="header-logo">
+
             </div>
+            <p></p>
+            </div>
+
             
-            <form action="#" method="POST" class="login-form">
+            <form id="loginForm" class="login-form">
                 <div class="form-group">
-                <label for="username">Username</label>
-                <input type="text" id="username" placeholder="Enter your Mobile number or Email">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="Enter your Mobile number or Email">
                 </div>
 
-                <div class="form-group">
-                    <label for="password">Password</label>
+                <div class="form-group" style="text-align: left;"> <label for="password">Password</label>
                     <input type="password" id="password" placeholder="Enter your password">
-                </div>
                 </div>
                 
                 <div class="form-actions">
@@ -44,10 +45,19 @@
             </div>
         </div>
     </div>
+
+    <div class="logo-container">
+        <img src="file:///Users/prajwalurs/Downloads/Gemini_Generated_Image_j96ecsj96ecsj96e.png" alt="Blood India 🇮🇳" class="top-right-logo">
+    </div>
+
+    <script>
+        // Intercept the form submission
+        document.getElementById('loginForm').addEventListener('submit', function(e) {
+            e.preventDefault(); // Prevents the browser's default reload/POST behavior
+            
+            // Your logic here (e.g., fetch request to API)
+            console.log("Login clicked! No refresh popup will appear.");
+        });
+    </script>
 </body>
 </html>
-
-<div class="logo-container">
-    <img src="file:///Users/prajwalurs/Downloads/blood-india-logo.svg" alt="Blood India 🇮🇳" class="top-right-logo">
-</div>
-

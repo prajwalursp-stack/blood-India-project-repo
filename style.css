@@ -166,9 +166,10 @@ body {
 }
 
 .top-right-logo {
-    height: 60px; /* Adjust the height to fit your design */
+    height: 80px; /* Adjust the height to fit your design */
     width: auto;  /* Maintains the aspect ratio */
 }
+
 .form-group {
     display: flex;
     flex-direction: column;
@@ -178,7 +179,7 @@ body {
 }
 
 .form-group label {
-    text-align: left;
+    text-align: ;
     width: 100%;
     margin-bottom: 5px;      /* Small gap between the label and the input box */
     font-weight: 600;        /* To match the bold styling in your screenshot */
@@ -187,4 +188,21 @@ body {
 .form-group input {
     width: 100%;             /* Ensures the input box fills the card width */
     /* Add your existing padding and border styles here */
+}
+
+.header-content {
+    display: flex;
+    align-items: center; /* Vertically aligns logo and text */
+    justify-content: center; /* Centers them in the card */
+    gap: 0px; /* Space between logo and text */
+    margin-bottom: 10px;
+}
+
+.header-logo {
+    width: 300px; /* Adjust size to fit your design */
+    height: auto;
+}
+
+.login-header h1 {
+    margin: 0; /* Removes default margins to keep alignment clean */
 }
