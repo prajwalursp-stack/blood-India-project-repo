@@ -152,6 +152,12 @@ body {
     text-decoration: underline;
 }
 
+.password-label-container {
+  text-align: left;
+  display: block;
+  width: 100%;
+}
+
 .logo-container {
     position: fixed;
     top: 20px;   /* Distance from the top edge */
