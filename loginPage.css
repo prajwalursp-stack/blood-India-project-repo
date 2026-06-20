@@ -179,7 +179,7 @@ body {
 }
 
 .form-group label {
-    text-align: left;
+    text-align: ;
     width: 100%;
     margin-bottom: 5px;      /* Small gap between the label and the input box */
     font-weight: 600;        /* To match the bold styling in your screenshot */
